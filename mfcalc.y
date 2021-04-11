@@ -90,10 +90,10 @@ void yyerror(char const *s)
 int main (int argc, char const* argv[])
 {
   int i;
-  printf("======================================================\n");
+  	printf("======================================================\n");
 	printf("|            Kinda Mathematical Calculator            |\n");
-	printf("|           Sumission for CDSS Mini Project           |\n");
-  printf("|                  Using lex and yacc                 |\n");
+	printf("|           Submission for CDSS Mini Project           |\n");
+  	printf("|                  Using lex and yacc                 |\n");
 	printf("======================================================\n");
   //Enable parse traces on option -p.
   for (i = 1; i < argc; ++i)
